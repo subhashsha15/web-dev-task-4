@@ -19,9 +19,9 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    height: fit-content;
     width: 100%;
-    /* margin-bottom: 300px; */
+    padding-bottom: 50px;
 }
 
 nav {
@@ -69,7 +69,9 @@ nav {
     line-height: 1.5rem;
     min-width: fit-content;
 }
-
+.signIn-btn a{
+    text-decoration: none;
+}
 .signIn-btn:hover {
     background-color: rgb(229, 9, 20, 0.9);
     cursor: pointer;

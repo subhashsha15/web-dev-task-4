@@ -23,7 +23,11 @@
             <span>English</span>
             <img src="./assets/languageBtnImage2.png" alt="">
           </button>
-          <button class="signIn-btn">Sign In</button>
+          <button class="signIn-btn">
+            <a href="./signupPage/SignUp.html">
+              Sign In
+            </a>
+          </button>
         </div>
       </nav>
       <div class="hero_content">
@@ -31,10 +35,10 @@
         <p>Watch anywhere.Cancel anytime.</p>
         <p>Ready to watch? Enter your email to create or restart your membership.</p>
         <div class="email_input">
-          <input type="text" placeholder="Email address">
-          <button>
-            Get Started
-            <img src="./assets/right-arrow.png" alt="">
+          <input type="text" id="email" placeholder="Email address">
+          <button onclick="signUp()">
+              Get Started
+              <img src="./assets/right-arrow.png" alt="">
           </button>
         </div>
       </div>
@@ -60,6 +64,7 @@
       <img src="./assets/FooterImage.png" alt="">
     </div>
   </div>
+  <script src="./landingPage.js"></script>
 </body>
 
 </html>

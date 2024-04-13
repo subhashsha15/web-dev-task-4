@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix-SignUp</title>
+    <link rel="stylesheet" href="./SignUp.css">
+    <link rel="icon" href="../assets/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="signup_container background">
+        <div class="signup_nav">
+            <img src="../assets/Logo.png" alt="">
+        </div>
+        <div class="signup_content">
+            <h1>Sign In</h1>
+            <p id="error-email-message" class="error-message"></p>
+            <input type="text" id="email" placeholder="Email Address" />
+            <p id="error-password-message" class="error-message"></p>
+            <input type="password" id="password" placeholder="Password" />
+            <button onclick="signIn()">Sign In</button>
+            <p>
+                <span>
+                    <input type="checkbox">
+                    Remember me
+                </span>
+                <span>Need help?</span>
+            </p>
+            <div class="signup_textwrapper">
+                <img src="../assets/facebook-icon.png" alt="">
+                Login with Facebook
+            </div>
+            <div class="signup_textwrapper">
+                New to Netflix?<span>Sign up now.</span>
+            </div>
+            <div id="term_condition">
+                This page is protected by Google reCAPTCHA to ensure you're not a bot.<span>Learn more.</span>
+            </div>
+        </div>
+        <div class="signup_footer">
+            <img src="../assets/signup-footer.png" alt="">
+        </div>
+    </div>
+    <script src="SignUp.js"></script>
+</body>
+
+</html>
