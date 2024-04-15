@@ -32,6 +32,6 @@ const signIn = () => {
         errorPasswordMessage.textContent = '';
     }
 
-    history.pushState(null, null, '../landingPage.html');
-    window.location.href = "../productPage/ProductPage.html";
+    history.pushState(null, null, '../index.html');
+    window.location.href = "../homePage/HomePage.html";
 }

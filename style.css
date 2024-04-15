@@ -71,6 +71,7 @@ nav {
 }
 .signIn-btn a{
     text-decoration: none;
+    color: #FFFFFF;
 }
 .signIn-btn:hover {
     background-color: rgb(229, 9, 20, 0.9);
